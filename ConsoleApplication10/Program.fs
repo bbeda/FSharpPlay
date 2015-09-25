@@ -10,7 +10,7 @@ let chartFunction step (fromX, toX) f =
         |> Chart.Line
 
 let ChartFunction (fromX, toX) f = 
-    let step = (toX - fromX) / 1000.
+    let step = (toX - fromX) / 1001.
     chartFunction step (fromX, toX) f
 
 let updatable = 
